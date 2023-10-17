@@ -1,0 +1,54 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/images/cannabis-field.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 50, 0, 0.7);
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.loginForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loginForm button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background-color: #008000;
+}
+
+.loginForm a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.loginForm a:hover {
+    text-decoration: underline;
+}

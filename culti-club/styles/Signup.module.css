@@ -1,0 +1,46 @@
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/images/cannabis-field.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 50, 0, 0.7);
+}
+
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+.signupForm input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.signupForm button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #006400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signupForm button:hover {
+    background-color: #008000;
+}
+
+.signupForm .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}

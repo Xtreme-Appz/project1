@@ -1,0 +1,52 @@
+.adminDashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0f0a;
+    color: #a3bcb6;
+    height: 100vh;
+    padding: 20px;
+}
+
+.adminDashboard .advertiserPlaceholder {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a3bcb6;
+    font-size: 20px;
+}
+
+.adminDashboard .advertiserForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adminDashboard .advertiserForm input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.adminDashboard .advertiserForm button {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1b4d30;
+    color: #a3bcb6;
+    cursor: pointer;
+}
+
+.adminDashboard .advertiserForm button:hover {
+    background-color: #123220;
+}

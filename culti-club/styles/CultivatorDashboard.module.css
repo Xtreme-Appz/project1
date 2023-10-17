@@ -1,0 +1,76 @@
+.cultivatorDashboard {
+    background: url('/path/to/cannabis-field.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.cultivatorDashboard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 50, 0, 0.7);
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.strainCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.strainLogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.strainInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.strainName {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.strainLevels {
+    display: flex;
+    justify-content: space-between;
+}
+
+.level {
+    margin-right: 10px;
+}
+
+.strainType {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.strainEffects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.effect {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #333;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
