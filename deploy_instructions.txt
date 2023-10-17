@@ -1,0 +1,65 @@
+# Deployment Instructions for Culti-Club
+
+## Prerequisites
+- Node.js and npm installed
+- MySQL or PostgreSQL installed and running
+- A database created for the application
+
+## Steps
+
+1. Clone the repository to your local machine.
+```
+git clone <repository_url>
+```
+
+2. Navigate to the project directory.
+```
+cd culti-club
+```
+
+3. Install the project dependencies.
+```
+npm install
+```
+
+4. Create a `.env` file in the root of the project and add the following environment variables:
+```
+DB_HOST=<your_database_host>
+DB_NAME=<your_database_name>
+DB_USER=<your_database_user>
+DB_PASSWORD=<your_database_password>
+SECRET=<your_secret_key>
+```
+
+5. Run the database seed script to populate the database with dummy data.
+```
+npm run seed
+```
+
+6. Build the Next.js application.
+```
+npm run build
+```
+
+7. Start the application.
+```
+npm start
+```
+
+The application should now be running at `http://localhost:3000`.
+
+## Deployment to a Production Server
+
+The steps for deploying to a production server will depend on your specific server setup. Generally, you will need to:
+
+1. Clone the repository on your server.
+2. Install the project dependencies.
+3. Set up your environment variables.
+4. Build the Next.js application.
+5. Start the application using a process manager like PM2.
+
+Remember to set up a reverse proxy (like Nginx) to direct traffic from your domain to the application.
+
+## Note
+
+This is a basic deployment guide. Depending on your setup, you might need to configure additional aspects like SSL, firewall rules, etc.
