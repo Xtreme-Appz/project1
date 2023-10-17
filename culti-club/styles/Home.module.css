@@ -1,0 +1,59 @@
+.homeContainer {
+    background: url('/path/to/cannabis-field.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.homeContainer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 50, 0, 0.7);
+}
+
+.sideNav {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.strainList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+
+.strainCard {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(100% / 5 - 40px);
+}
+
+.sponsoredSection {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.adPlaceholder {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
